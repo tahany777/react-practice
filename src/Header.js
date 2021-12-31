@@ -1,15 +1,18 @@
 import React from 'react'
 
-function Header() {
+// function Header(prpos) { //or
+function Header({ title }) {
     const headerStyle = {
         backgroundColor: 'royalblue',
         color: '#fff'
     }
     return (
         <header style={headerStyle}>
-            <h1>Groceries List</h1>
+            <h1>{ title }</h1>
         </header>
     )
 }
-
+Header.defaultProps = {
+    title: 'default title'
+}
 export default Header
