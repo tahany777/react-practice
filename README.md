@@ -59,3 +59,5 @@ useEffect(() => {
 * p => stands for port
 * w => stands for watch
 * ``http://localhost:3500/items``
+
+## CRUD Operations:-
