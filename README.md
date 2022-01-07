@@ -51,3 +51,11 @@ useEffect(() => {
 },[items])
 //looking to this function when the dependency change(items) 
 ```
+
+### JSON-SERVER
+
+* **``npx json-server -p 3500 -w data/db.json``**
+
+* p => stands for port
+* w => stands for watch
+* ``http://localhost:3500/items``
